@@ -1,26 +1,23 @@
 import streamlit as st
 
 spam_keywords = [
-    "win", "winner", "lottery", "jackpot", "prize", "reward", "gift",
+    "win", "lottery", "jackpot", "prize", "reward", "gift",
     "cash prize", "lucky draw", "congratulations", "selected winner",
 
-    "free money", "easy money", "earn money", "instant cash",
+    "free money","earn money", "instant cash",
     "double your money", "cash reward", "claim money",
 
     "bank details", "bank account", "account blocked", "account suspended",
     "account frozen", "verify account", "bank verification",
     "update bank account", "credit card blocked", "debit card blocked",
 
-    "otp", "share otp", "provide otp", "verification code",
-    "security code", "one time password",
+    "otp", "share otp", "verification code",
+    "security code",
 
     "upi", "upi pin", "google pay", "phonepe", "paytm",
     "payment request", "collect request", "receive payment",
     "scan qr code", "wallet update",
-
-    "kyc", "complete kyc", "update kyc", "re-kyc",
-    "kyc expired", "kyc verification required",
-
+    
     "urgent", "immediately", "act now", "limited time",
     "within 24 hours", "final warning", "last chance",
     "avoid suspension",
@@ -35,10 +32,7 @@ spam_keywords = [
     "income tax refund", "gst refund", "government subsidy",
     "pm yojana", "aadhaar update", "pan verification",
 
-    "parcel pending", "package held", "delivery failed",
-    "courier issue", "tracking update",
-
-    "work from home", "part time job", "online job",
+    "work from home", "online job",
     "earn daily", "registration fee", "joining fee",
 
     "crypto investment", "bitcoin profit", "guaranteed return",
@@ -48,10 +42,9 @@ spam_keywords = [
     "bonus reward", "customer care", "helpline number",
     "confidential", "sensitive information",
 
-    "account will be closed", "service suspended",
-    "legal action", "penalty", "fine payment",
-    "court notice"
+    "service suspended","penalty", "fine payment",
 ]
+
 st.title("AI Spam & Fraud Detection Assistant")
 
 message = st.text_area("Enter Message")
