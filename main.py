@@ -31,18 +31,13 @@ spam_keywords = [
 
     "income tax refund", "gst refund", "government subsidy",
     "pm yojana", "aadhaar update", "pan verification",
-
-    "work from home", "online job",
-    "earn daily", "registration fee", "joining fee",
-
+    
     "crypto investment", "bitcoin profit", "guaranteed return",
     "investment plan", "trading profit", "100% return",
 
     "exclusive offer", "special offer", "free gift",
     "bonus reward", "customer care", "helpline number",
     "confidential", "sensitive information",
-
-    "service suspended","penalty", "fine payment",
 ]
 
 st.title("AI Spam & Fraud Detection Assistant")
