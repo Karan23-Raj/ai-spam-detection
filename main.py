@@ -62,10 +62,10 @@ if st.button("Analyze"):
 
     for keyword in spam_keywords:
         if keyword.lower() in message.lower():
-            score += 30
+            score += 10
             reasons.append(keyword)
 
-    result = "Spam/Fraud" if score >= 20 else "Safe"
+    result = "Spam/Fraud" if score >= 30 else "Safe"
 
     st.write("Result:", result)
     st.write("Risk Score:", score, "%")
