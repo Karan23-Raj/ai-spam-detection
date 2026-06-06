@@ -2,9 +2,8 @@ import streamlit as st
 
 spam_keywords = [
     "win", "lottery", "jackpot", "prize", "reward", "gift",
-    "cash prize", "lucky draw", "congratulations", "selected winner",
-
-    "free money","earn money", "instant cash",
+    "cash prize", "lucky draw", "congratulations", "Aadhaar and account details",
+     "instant cash",
     "double your money", "cash reward", "claim money",
 
     "bank details", "bank account", "account blocked", "account suspended",
@@ -34,10 +33,6 @@ spam_keywords = [
     
     "crypto investment", "bitcoin profit", "guaranteed return",
     "investment plan", "trading profit", "100% return",
-
-    "exclusive offer", "special offer", "free gift",
-    "bonus reward", "customer care", "helpline number",
-    "confidential", "sensitive information",
 ]
 
 st.title("AI Spam & Fraud Detection Assistant")
